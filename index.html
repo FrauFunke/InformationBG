@@ -148,6 +148,9 @@ details[open] summary::after{content:"–"}
 details p{margin:0 0 1rem}
 
 .contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}
+.cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--teal);color:var(--on-dark);font-weight:700;text-decoration:none;padding:.75rem 1.3rem;border-radius:10px;margin:.4rem 0 .6rem;transition:background .2s ease}
+.cta:hover{background:var(--blue)}
+.cta-note{display:block;font-size:.9rem;color:var(--muted)}
 footer{margin-top:3rem;padding:2rem 0 2.5rem;background:var(--surface);border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
 
 @media (max-width:620px){
@@ -191,6 +194,7 @@ footer{margin-top:3rem;padding:2rem 0 2.5rem;background:var(--surface);border-to
     <span class="event">Informationsabend am 9. November 2026</span>
     <h1>Abitur mit Profil: das Berufliche Gymnasium</h1>
     <p class="lead">Am Beruflichen Gymnasium der BBS Meppen erwirbt Ihr Kind die Allgemeine Hochschulreife und lernt dabei ein Berufsfeld gründlich kennen. Wählen Sie eine Fachrichtung, um mehr zu erfahren.</p>
+    <a class="cta" href="https://bewerbung.bbs-meppen.de" target="_blank" rel="noopener">Zur Online-Anmeldung ↗</a>
 
     <div class="fr-pick" role="group" aria-label="Fachrichtung wählen" id="frpick"></div>
     <div class="fr-panel" id="frpanel" aria-live="polite"></div>
@@ -315,6 +319,8 @@ footer{margin-top:3rem;padding:2rem 0 2.5rem;background:var(--surface);border-to
     <div class="col">
       <h2>Kontakt</h2>
       <p>Sie haben Fragen oder möchten ein Beratungsgespräch vereinbaren? Sprechen Sie uns an.</p>
+      <p>Ihr Kind möchte sich anmelden? Die Anmeldung erfolgt online.</p>
+      <a class="cta" href="https://bewerbung.bbs-meppen.de" target="_blank" rel="noopener">Zur Online-Anmeldung ↗</a>
     </div>
     <div class="contact">
       <div class="panel">
